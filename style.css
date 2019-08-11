@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image:url("https://slotopaint.com/wp-content/uploads/2016/09/goldrush_BG-day.jpg") ;
+}
+.wrapper{
+display: flex;
+
+}
+.wrapper div{
+    height: 100px;
+
+}
+#number{
+    margin-top: 10px;
+    background-color:rgb(8, 8, 8);
+    opacity:0.6;
+    display:block;
+    width: 340px;
+    height: 50px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    padding-left: 20px
+
+}
+#btn{
+    position:absolute;
+    top:22px;
+    left:340px;
+    width: 30px;
+    height: 24px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 8px;
+    border: 2x solid grey;
+    box-shadow: 0 0 4px white;
+    cursor: pointer;
+
+
+}
+
+.line{
+    border:solid black 1px;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+}
+.b{
+background-color: black;
+border-radius: 15px;
+     font-size: 10px;   
+    text-align: center;    
+}
+.c{
+ background-image:url("http://tse3.mm.bing.net/th?id=OGC.d74906d39a1964e7d07555e7601b06ad&pid=1.7&rurl=http%3A%2F%2Fgifimage.net%2Fwp-content%2Fuploads%2F2017%2F10%2Fcoin-flip-gif-10.gif&ehk=qO6WQwwMoRL%2F%2Bfd0wZFoLg");
+ border-radius:15px; 
+ background-size:cover;
+ background-position:center; 
+color: rgb(66, 59, 59); 
+}
+
+.e{
+    border-radius: 50%;
+    /* background:rgb(197, 143, 194);
+    color:rgb(197, 143, 194); */
+    visibility: hidden;
+}
+[class="1"]{
+    background-image:url("https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/ec/13/72/ec137292-f2be-9f55-3be7-bbdffb73f49a/mzl.vrvgkxus.png/1200x630wb.png");
+    background-size:cover;
+    background-position:center;  
+    border-radius:15px; 
+    color: white;
+
+}
+[class="2"]{
+    background-image:url("https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/ec/13/72/ec137292-f2be-9f55-3be7-bbdffb73f49a/mzl.vrvgkxus.png/1200x630wb.png");
+    background-size:cover;
+    background-position:center;  
+    border-radius:15px; 
+    color: white;
+
+}

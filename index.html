@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>goldRush</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+
+</head>
+
+<body>
+
+    <input type="number" id="number" placeholder="insert number">
+    <i class="fas fa-search" id="btn"></i>
+    <div class="box"></div>
+
+    <script id='templateBoard' type="text/x-handlebars-template">
+
+        <div class="wrapper">
+        {{#each box}}
+        <div class="line">
+          <div class="{{this}}"></div>
+        </div>
+        {{/each}} 
+        </div>  
+        </script>
+
+    <script src="Matrix.js"></script>
+    <script src="GoldRush.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
